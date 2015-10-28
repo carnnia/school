@@ -21,11 +21,11 @@ public class average{
 		int number3 = keyboard.nextInt();
 		// start the output
 		System.out.println("******************************************");
-		System.out.println("Value 1: \t" + " |\t number1 \t" + " |\t " );
+		System.out.println("Value 1: \t" + " |\t " + number1 + " \t" + " |\t " );
 		System.out.println("******************************************");
-		System.out.println("Value 2: \t" + " |\t number2 \t" + " |\t " );
+		System.out.println("Value 2: \t" + " |\t " + number2 + " \t" + " |\t " );
 		System.out.println("******************************************");
-		System.out.println("Value 3: \t" + " |\t number3 \t" + " |\t " );
+		System.out.println("Value 3: \t" + " |\t " + number3 + " \t" + " |\t " );
 		System.out.println("******************************************");
 		System.out.println("AVERAGE: \t " + ((number1 + number2 + number3) / 3.0 ) );
 		System.out.println("******************************************");
